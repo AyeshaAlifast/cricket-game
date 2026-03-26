@@ -1,0 +1,21 @@
+.play-shot-btn {
+  margin-top: 14px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  background: #f77f00;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.play-shot-btn:hover {
+  background: #d66d00;
+  transform: translateY(-1px);
+}
+
+.play-shot-btn:active {
+  transform: scale(0.98);
+}
